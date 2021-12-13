@@ -103,7 +103,8 @@ button {
   }
 
   .c-desc {
-    display: none;
+    font-weight: 20;
+    font-size: 15px;
   }
 
   form {
@@ -114,7 +115,7 @@ button {
   }
 
   input {
-    width: 35%;
+    width: 70%;
     height: 40px;
     margin: 10px;
     margin-left: 0;
