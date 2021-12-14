@@ -30,7 +30,8 @@
 }
 
 .p:hover .p-img {
-  transform: translateY(-100%);
+  /* transform: translateY(-50%); */
+  transform: rotate(180deg);
 }
 
 @media screen and (max-width: 480px) {

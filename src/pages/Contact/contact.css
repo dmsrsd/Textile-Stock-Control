@@ -139,3 +139,43 @@ button {
     margin-top: 10px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc {
+    font-weight: 20;
+    font-size: 15px;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  input {
+    width: 70%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}
