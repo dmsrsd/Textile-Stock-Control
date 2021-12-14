@@ -64,7 +64,7 @@ const Contact = () => {
               <input type="text" placeholder="Email" name="user_email" />
               <textarea rows="5" placeholder="Message" name="message" />
               <button>Submit</button>
-              {done && "Thank you..."}
+              {done && " Your Message has been sent"}
             </form>
           </div>
         </div>
