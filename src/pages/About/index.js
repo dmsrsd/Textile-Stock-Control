@@ -16,23 +16,28 @@ const About = () => {
 
       <div className="a-right">
         <h1 className="a-title">About Me</h1>
-        <p className="a-sub">
+        {/* <p className="a-sub">
           It is a long established fact that a reader will be distracted by the
           readable content.
+        </p> */}
+        <p className="a-desc">
+          Hello I'am a web design and frontend developer, I create Web App,
+          Single Page Web, Web Landing and Other Application using React Js.
         </p>
         <p className="a-desc">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-          aliquip ex ea commodo consequat duis aute irure dolor in reprehende.
+          React.js is an open-source JavaScript library that is used for
+          building user interfaces specifically for single-page applications.
+          It’s used for handling the view layer for web and mobile apps.
         </p>
         <div className="a-award">
           <img src={reactLogo} className="a-award-img"></img>
           <div className="a-award-texts">
-            <h4 className="a-award-title">Using React Js</h4>
+            <h4 className="a-award-title">Why Using React Js ?</h4>
             <p className="a-award-desc">
-              Nemo enim ipsam voluptatem quia voluptas sit aspernatur autodit
-              and fugit.
+              React also allows us to create reusable UI components. React was
+              first created by Jordan Walke, a software engineer working for
+              Facebook. React first deployed on Facebook’s newsfeed in 2011 and
+              on Instagram.com in 2012.
             </p>
           </div>
         </div>
