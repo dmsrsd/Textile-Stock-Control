@@ -40,3 +40,10 @@
     height: 20vh;
   }
 }
+/* 
+@media screen and (max-width: 780px) {
+  .p {
+    width: 30%;
+    height: 40vh;
+  }
+} */
