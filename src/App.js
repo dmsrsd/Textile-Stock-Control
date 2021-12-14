@@ -8,17 +8,19 @@ export default function App() {
   const darkMode = theme.state.darkMode;
 
   return (
-    <div
-      style={{
-        backgroundColor: darkMode ? "#222" : "white",
-        color: darkMode && "white",
-      }}
-    >
-      <Toggle />
-      <Intro />
-      <About />
-      <ProductList />
-      <Contact />
-    </div>
+    <>
+      <div
+        style={{
+          backgroundColor: darkMode ? "#222" : "white",
+          color: darkMode && "white",
+        }}
+      >
+        <Intro />
+        <Toggle />
+        <About />
+        <ProductList />
+        <Contact />
+      </div>
+    </>
   );
 }
