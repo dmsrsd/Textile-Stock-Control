@@ -7,8 +7,14 @@
 .c-bg {
   width: 20px;
   height: 100%;
-  background-color: #59b256;
   position: absolute;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
 }
 
 .c-wrapper {
@@ -81,10 +87,17 @@ textarea {
 button {
   border: none;
   padding: 15px;
-  background-color: #59b256;
-  color: white;
-  font-weight: 500;
+  color: black;
+  font-weight: bold;
   cursor: pointer;
+  /* background-color: #59b256; */
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
 }
 
 @media screen and (max-width: 480px) {
@@ -95,6 +108,47 @@ button {
 
   .c-title {
     font-size: 20px;
+    font-weight: bold;
+  }
+
+  .c-info-item {
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc {
+    font-weight: 20;
+    font-size: 15px;
+  }
+
+  form {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  input {
+    width: 70%;
+    height: 40px;
+    margin: 10px;
+    margin-left: 0;
+  }
+
+  button {
+    margin-top: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .c-wrapper {
+    flex-direction: column;
+    padding: 0px 50px;
+  }
+
+  .c-title {
+    font-size: 20px;
+    font-weight: bold;
   }
 
   .c-info-item {

@@ -26,6 +26,7 @@
   justify-content: space-between;
 }
 
+/* Small Device */
 @media screen and (max-width: 480px) {
   .pl {
     padding: 10px;
@@ -37,5 +38,28 @@
 
   .pl-desc {
     display: none;
+  }
+  .pl-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+}
+
+/* Medium Device*/
+@media screen and (max-width: 768px) {
+  .pl {
+    padding: 10px;
+  }
+
+  .pl-texts {
+    width: 100%;
+  }
+
+  .pl-desc {
+    display: none;
+  }
+  .pl-title {
+    font-size: 20px;
+    font-weight: bold;
   }
 }
